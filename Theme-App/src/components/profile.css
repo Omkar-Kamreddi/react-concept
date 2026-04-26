@@ -1,0 +1,99 @@
+
+
+/* Card */
+.card {
+  width: 700px;
+  margin: 40px auto;
+  border-radius: 12px;
+  overflow: hidden;
+  transition: 0.3s;
+}
+
+.card.light {
+  background: #fff;
+  color: black;
+}
+
+.card.dark {
+  background: #242424;
+  color: #fff;
+}
+
+.card.light .info h2 {
+  color: #000;
+}
+
+.card.dark .info h2 {
+  color: #fff;
+}
+
+/* Cover */
+.cover {
+  height: 140px;
+  background: url("/bg.png") center/cover;
+}
+
+/* Profile Image */
+.profile-img {
+  position: relative;
+  margin-top: -50px;
+  margin-left: 20px;
+}
+
+.profile-img img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  border: 4px solid white;
+}
+
+.badge {
+  position: absolute;
+  bottom: -5px;
+  left: 0;
+  background: green;
+  color: white;
+  padding: 4px 8px;
+  border-radius: 20px;
+  font-size: 12px;
+}
+
+/* Info */
+.info {
+  padding: 20px;
+}
+
+.role {
+  color: gray;
+  font-size: 14px;
+}
+
+.location {
+  font-size: 13px;
+  margin-top: 5px;
+}
+
+/* Buttons */
+.actions {
+  margin-top: 15px;
+}
+
+.actions button {
+  margin-right: 10px;
+  padding: 8px 14px;
+  border-radius: 20px;
+  border: none;
+  cursor: pointer;
+}
+
+.primary {
+  background: #0a66c2;
+  color: white;
+}
+
+/* Toggle */
+.toggle-btn {
+  margin: 15px;
+  padding: 6px 12px;
+  cursor: pointer;
+}
